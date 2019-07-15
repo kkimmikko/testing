@@ -7,8 +7,8 @@
       console.log('Line from file:', line);
   }); */
 
-var Lazy=require("lazy");
-new Lazy(process.stdin);
+//var Lazy=require("lazy");
+//new Lazy(process.stdin);
 var fs = require('fs'),
     readline = require('readline');
 
@@ -22,4 +22,4 @@ rd.on('line', function(line) {
     console.log(line);
 });
 
-process.stdin.resume();
+//process.stdin.resume();
