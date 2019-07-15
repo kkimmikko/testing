@@ -34,11 +34,12 @@ rd.on('line', function(line) {
      var type = parseInt(buffer[1].split(':')[1]) 
      console.log('found type: ' + type)
      if (type == 2 || type == 3) {
-             var inflictor = buffer[4].split(':')[1].trim()
-             console.log(inflictor);
-             if (inflictor == 'modifier_rune_arcane') {
+             var inflictor = buffer[4].split(':')[1].trim();
+             var inflictor2 = buffer[5].split(':')[1].trim();
+             console.log(inflictor + ' - ' + inflictor2);
+             if (inflictor == 'modifier_rune_arcane' || inflictor2 == 'modifier_rune_arcane') {
               // call vmix api
-              options.path = 'my new vmix path to close the overlay'
+              options.path = 'my new vmix path to close the overlay';
               console.log("whatever-----------------------------------------------------------------");
               //http.request(options, function (res) {
               //})
