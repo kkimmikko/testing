@@ -1,0 +1,120 @@
+﻿{
+	type: 11
+	target: npc_dota_hero_sniper
+	is_visible_radiant: 1
+	value: 13
+	timestamp: 93.632
+}
+{
+	type: 8
+	target: npc_dota_hero_zuus
+	value: 40
+	timestamp: 94.332
+	gold_reason: 0
+}
+{
+	type: 0
+	target: npc_dota_creep_badguys_melee
+	target_source: npc_dota_creep_badguys_melee
+	attacker_name: npc_dota_hero_pudge
+	damage_source: npc_dota_hero_pudge
+	is_attacker_illusion: 0
+	is_attacker_hero: 1
+	is_target_illusion: 0
+	is_target_hero: 0
+	is_visible_radiant: 1
+	is_visible_dire: 1
+	value: 57
+	value: 3
+	timestamp: 118.665
+	last_hits: 0
+}
+{
+	type: 10
+	target: npc_dota_hero_pudge
+	value: 114
+	timestamp: 118.665
+	xp_reason: 2
+}
+{
+	type: 4
+	target: npc_dota_creep_badguys_melee
+	target_source: npc_dota_creep_badguys_melee
+	attacker_name: npc_dota_creep_goodguys_melee
+	damage_source: npc_dota_creep_goodguys_melee
+	is_attacker_illusion: 0
+	is_attacker_hero: 0
+	is_target_illusion: 0
+	is_target_hero: 0
+	is_visible_radiant: 1
+	is_visible_dire: 1
+	value: 17
+	value: 0
+	timestamp: 118.665
+	last_hits: 0
+}
+{
+	type: 3
+	target: npc_dota_hero_viper
+	attacker_name: npc_dota_badguys_tower1_mid
+	inflictor: modifier_tower_aura_bonus
+	is_attacker_illusion: 0
+	is_attacker_hero: 0
+	is_target_illusion: 0
+	is_target_hero: 1
+	is_visible_radiant: 1
+	is_visible_dire: 1
+	value: 0
+	value: 680
+	timestamp: 119.265
+}
+{
+	type: 0
+	target: npc_dota_creep_goodguys_melee
+	target_source: npc_dota_creep_goodguys_melee
+	attacker_name: npc_dota_hero_pudge
+	damage_source: npc_dota_hero_pudge
+	is_attacker_illusion: 0
+	is_attacker_hero: 1
+	is_target_illusion: 0
+	is_target_hero: 0
+	is_visible_radiant: 1
+	is_visible_dire: 1
+	value: 57
+	value: 0
+	timestamp: 120.165
+	last_hits: 0
+}
+{
+	type: 10
+	target: npc_dota_hero_viper
+	value: 28
+	timestamp: 120.165
+	xp_reason: 2
+}
+{
+	type: 10
+	target: npc_dota_hero_pudge
+	value: 28
+	timestamp: 120.165
+	xp_reason: 2
+}
+{
+	type: 4
+	target: npc_dota_creep_goodguys_melee
+	target_source: npc_dota_creep_goodguys_melee
+	attacker_name: npc_dota_hero_pudge
+	damage_source: npc_dota_hero_pudge
+	is_attacker_illusion: 0
+	is_attacker_hero: 1
+	is_target_illusion: 0
+	is_target_hero: 0
+	is_visible_radiant: 1
+	is_visible_dire: 1
+	value: 57
+	value: 0
+	timestamp: 120.165
+	last_hits: 0
+}
+
+checkcheck
