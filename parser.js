@@ -43,8 +43,8 @@ rd.on('line', function(line) {
               // call vmix api
               options.path = 'my new vmix path to close the overlay';
               console.log("whatever-----------------------------------------------------------------");
-              http.request(options, function (res) {
-              })
+              //http.request(options, function (res) {
+              //})
               }
              
    }
